@@ -6,5 +6,8 @@ public class Main {
       Graph.notDirectedGraph();
       Graph.directedGraph();
       Graph.printGraph(tree);
+
+      System.out.println("\n BFS");
+      BreadthFirstSearchBFS.bfs(tree);
   }
 }
