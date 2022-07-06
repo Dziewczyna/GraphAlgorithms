@@ -27,7 +27,7 @@ public class BreadthFirstSearchBFS {
         }
       }
       visited[used] = true;
-      System.out.print("vertex " + used + " - ");
+      System.out.print(used + " -> ");
     }
   }
 }
