@@ -7,10 +7,13 @@ public class Main {
     Graph.directedGraph();
     Graph.printGraph(graph);
 
-    System.out.println("\n BFS");
+    System.out.println("\n\n BFS");
     BreadthFirstSearchBFS.bfs(graph);
 
-    System.out.println("\n DFS");
+    System.out.println("\n\n DFS");
     DepthFirstSearchDFS.dfs(graph);
+
+    System.out.println("\n\n Dijkstra's shortest path");
+    DijkstrasShortestPathAlgorithm.dijkstra(graph);
   }
 }
