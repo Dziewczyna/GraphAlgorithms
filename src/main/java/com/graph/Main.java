@@ -15,5 +15,8 @@ public class Main {
 
     System.out.println("\n\n Dijkstra's shortest path");
     DijkstrasShortestPathAlgorithm.dijkstra(graph);
+
+    System.out.println("\n\n Minimal Spanning Tree Algorithm");
+    MinimumSpanningTree_Prim.minSpanningTreePrim(graph);
   }
 }
